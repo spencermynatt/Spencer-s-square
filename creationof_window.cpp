@@ -18,7 +18,7 @@ const char* fragment_shader =
 "}\n";
 int main() {
 	glfwInit();
-	GLFWwindow* window = glfwCreateWindow(800, 600, "spencer's triangle", NULL, NULL);
+	GLFWwindow* window = glfwCreateWindow(800, 600, "spencer's square", NULL, NULL);
 	if (window == NULL)
 	{
 		glfwTerminate();
