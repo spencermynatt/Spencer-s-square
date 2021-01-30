@@ -1,3 +1,8 @@
+//ebo just makes it easier on our memory if we don't want to copy paste a huge amount of rectangle coordinates
+//vao gets the vertex points
+//then binds it to the buffer
+
+
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
 #include <iostream>
